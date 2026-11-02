@@ -1,0 +1,31 @@
+/* Fontes e Estilos Personalizados */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Transições de Animação para Efeitos de Hover */
+.gallery-item img {
+    will-change: transform;
+}
+
+/* Scrollbar Customizada */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #070708;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2a2a30;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+}
